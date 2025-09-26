@@ -9,7 +9,7 @@
 		<version>3.5.6</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>nhan</groupId>
+	<groupId>nguyen</groupId>
 	<artifactId>bt8</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bt8</name>

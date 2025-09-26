@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
 </head>
+
 <body>
     <div th:fragment="header">
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #172a50;">
-            <a class="navbar-brand" href="#">Phan Thành Nhân</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">Trinh Khoi Nguyen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -20,10 +23,12 @@
                     </li>
                 </ul>
                 <div class="d-flex align-items-center ms-auto">
-                    <img th:src="@{'/images/category/' + PTN.jpg}" class="rounded-circle" alt="Ảnh của Nhân" style="width: 40px; height: 40px;">
+                    <img th:src="@{'/images/category/' + Nguyen.jpg}" class="rounded-circle" alt="Ảnh của Nguyen"
+                        style="width: 40px; height: 40px;">
                 </div>
             </div>
         </nav>
     </div>
 </body>
+
 </html>
